@@ -60,12 +60,12 @@ const Home: NextPage = () => {
       <p className={styles.description}>Metodos de Contacto</p>
       <div className={styles.grid}>
         <a
-          href="https://wa.me/573215036003?text=Hola%20!"
+          href="https://wa.me/573104948976?text=Hola%20!"
           className={styles.card}
         >
           <p>WhatsApp </p>
         </a>
-        <a href="mailto:valparaisoph2020@gmail.com" className={styles.card}>
+        <a href="mailto:floresdemaria4595@gmail.com" className={styles.card}>
           <p>Correo Electronico</p>
         </a>
       </div>
