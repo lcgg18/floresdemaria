@@ -12,11 +12,11 @@ const Home: NextPage = () => {
       description={"Pagina Principal"}
     >
 
-      {/* <div className="imagen">
+      <div className="imagen">
       <div className="img1">
-        <Image src="/App1.png" alt="ProntoPago" width="420" height="175" />
+        <Image src="/App1.png" alt="ProntoPago" width="484" height="242" />
       </div>
-      </div> */}
+      </div>
       {/* <div className="imagen"></div>
       <div className="img1">
       <a
@@ -30,16 +30,10 @@ const Home: NextPage = () => {
       </div>  */}
       
       <div className={styles.grid}>
-        <a
-          href="https://www.pagosvirtualesavvillas.com.co/personal/pagos/13750"
-          rel="noopener noreferrer"
-          className={styles.card}
-        >
-          <p>Pagos por PSE</p>
-        </a>
-        <NextLink href="/efecty" passHref>
+        
+        <NextLink href="/corresponsal" passHref>
           <a className={styles.card}>
-            <p>Pagos Por Efecty </p>
+            <p>Corresponsal Bancolombia </p>
           </a>
         </NextLink>
         <NextLink href="/bancario" passHref>
@@ -60,7 +54,7 @@ const Home: NextPage = () => {
       <p className={styles.description}>Metodos de Contacto</p>
       <div className={styles.grid}>
         <a
-          href="https://wa.me/573104948976?text=Hola%20!"
+          href="https://wa.me/573104948976?text=Hola%20te%20hablo%20desde%20la%20%20APP!"
           className={styles.card}
         >
           <p>WhatsApp </p>

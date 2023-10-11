@@ -11,13 +11,18 @@ const Bancario = () => {
     >
       <div className={styles.grid}>
         <div className={styles.card1}>
-          <h2>Pagos por el Banco AvVilla</h2>
+          <h2>Pagos por el Bancolombia</h2>
           <hr />
-          <p>Cuenta corriente: 004017240</p>
-          <p>Banco AV Villas.</p>
-          <p>Nit 901 385 516</p>
-          <p>Referencia: torre y apto</p>
-          <p>Ejemplo: 5 801</p>
+          <p>Cuenta de ahorros: 524-810018-97</p>
+          <p>Bancolombia.</p>
+          <p>Nit 901 107 284</p>
+          <p>Referencia Casa</p>
+          <p>Ejemplo:</p>
+             <p>Manzana A casa 1  A {'=>'} 100101 </p>
+             <p>Manzana B casa 12 B {'=>'} 111202 </p>
+             <p>Manzana C casa 22 A {'=>'} 132201 </p>
+             <p>Manzana D casa 13 B {'=>'} 141302 </p>
+             
         </div>
       </div>
       <div className="Inicio">

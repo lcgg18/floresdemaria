@@ -11,21 +11,21 @@ const documentos = () => {
     >
         <hr />
       <div className={styles.grid}>
-        <a href="/MANUAL DE CONVIVENCIA.pdf" className={styles.card1}>
+        <a href="/MANUAL DE CONVIVENCIA APROBADO ASAMBLEA EXTRAORDINARIA 2022.pdf" className={styles.card1}>
           <p>Manual de Convivencia</p>
         </a>
-        <a href="/REGLAMENTO PARA EL USO Y GOCE DE LOS PARQUEADEROS COMUNALES.pdf" className={styles.card1}>
+        {/* <a href="/REGLAMENTO PARA EL USO Y GOCE DE LOS PARQUEADEROS COMUNALES.pdf" className={styles.card1}>
           <p>Uso y goce de Paqueadero</p>
-        </a>
-        <a href="/Formato 001 Reserva y autorización de salon social valparaiso.pdf" className={styles.card1}>
+        </a> */}
+        <a href="/Reserva salon social flores.pdf" className={styles.card1}>
           <p>Reserva de Salón Social</p>
         </a>
-        <a href="/AUTORIZACION CONTRATISTAS.pdf" className={styles.card1}>
+        {/* <a href="/AUTORIZACION CONTRATISTAS.pdf" className={styles.card1}>
           <p>Autorizacion a Contratista</p>
         </a>
         <a href="https://servicioalclienteamarilo.custhelp.com/app/ask/" className={styles.card1}>
           <p>Solicitud de Garantia Amarilo</p>
-        </a>
+        </a> */}
       </div>
       <div className="Inicio">
         <NextLink href="/" passHref>
