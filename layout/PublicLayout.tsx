@@ -42,7 +42,7 @@ const PublicLayout:FC<Props> = ({children, name, content, title='Bienvenido', de
       </main>
       <footer className={styles.footer}>
         <span className={styles.subtitle}>
-        Conjunto Cerrado Flores de Maria - Orion 2023
+        Conjunto Cerrado Flores de Maria - GYG Asesorias y Servicios 2023
         </span>
       </footer>
     </div>

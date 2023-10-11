@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 import PublicLayout from '../layout/PublicLayout';
 import NextLink from 'next/link';
 
-const Efecty = () => {
+const Corresponsal = () => {
   return (
     <PublicLayout
       name="Pagos por Corresponsal Bancolombia"
@@ -32,4 +32,4 @@ const Efecty = () => {
   
 }
 
-export default Efecty
+export default Corresponsal
