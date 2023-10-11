@@ -16,10 +16,10 @@ const Efecty = () => {
           <h3>Convenio: 80052 </h3>
           <p>Referencia Casa</p>
           <p>Ejemplo:</p>
-             <p>Manzana A casa 1  A {'=>'} 100101 </p>
-             <p>Manzana B casa 12 B {'=>'} 111202 </p>
-             <p>Manzana C casa 22 A {'=>'} 132201 </p>
-             <p>Manzana D casa 13 B {'=>'} 141302 </p>
+             <h4>Manzana A casa 1  A {'=>'} 100101 </h4>
+             <h4>Manzana B casa 12 B {'=>'} 111202 </h4>
+             <h4>Manzana C casa 22 A {'=>'} 132201 </h4>
+             <h4>Manzana D casa 13 B {'=>'} 141302 </h4>
         </div>
       </div>
       <div className="Inicio">
