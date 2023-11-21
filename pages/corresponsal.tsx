@@ -16,8 +16,8 @@ const Corresponsal = () => {
           <h3>Convenio: 80052 </h3>
           <p>Referencia Casa</p>
           <p>Ejemplo:</p>
-             <h4>Manzana A casa 1  A {'=>'} 100101 </h4>
-             <h4>Manzana B casa 12 B {'=>'} 111202 </h4>
+             <h4>Manzana A casa 1  A {'=>'} 110101 </h4>
+             <h4>Manzana B casa 12 B {'=>'} 121202 </h4>
              <h4>Manzana C casa 22 A {'=>'} 132201 </h4>
              <h4>Manzana D casa 13 B {'=>'} 141302 </h4>
         </div>
