@@ -13,9 +13,9 @@ const Home: NextPage = () => {
     >
 
       <div className="imagen">
-      {/* <div className="img1">
+      <div className="img1">
         <Image src="/App1.png" alt="ProntoPago" width="484" height="212" />
-      </div> */}
+      </div>
       </div>
       {/* <div className="imagen"></div>
       <div className="img1">
