@@ -42,7 +42,7 @@ const PublicLayout:FC<Props> = ({children, name, content, title='Bienvenido', de
       </main>
       <footer className={styles.footer}>
         <span className={styles.subtitle}>
-        ASESORIAS Y SERVICIOS GYG SAS® 2023
+        ASESORIAS Y SERVICIOS GYG SAS® 2024
         </span>
         
       </footer>
