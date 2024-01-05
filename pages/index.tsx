@@ -11,12 +11,10 @@ const Home: NextPage = () => {
       content={"Pagina principal"}
       description={"Pagina Principal"}
     >
-
       <div className="imagen">
-      <div className="img1">
-        {/* <Image src="/App1.png" alt="ProntoPago" width="484" height="212" /> */}
-        <Image src="/Nd.png" alt="Feliz Navidad" width="484" height="212" />
-      </div>
+        <div className="img1">
+          <Image src="/App1.png" alt="ProntoPago" width="484" height="212" />
+        </div>
       </div>
       {/* <div className="imagen"></div>
       <div className="img1">
@@ -31,7 +29,6 @@ const Home: NextPage = () => {
       </div>  */}
       <p className={styles.description}>Medios de Pagos</p>
       <div className={styles.grid}>
-        
         <NextLink href="/corresponsal" passHref>
           <a className={styles.card}>
             <p>Corresponsal Bancolombia </p>
