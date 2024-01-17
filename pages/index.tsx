@@ -28,7 +28,13 @@ const Home: NextPage = () => {
       </div>
       </div>  */}
       <p className={styles.description}>Medios de Pagos</p>
+      
       <div className={styles.grid}>
+        <NextLink href="/avalpay" passHref>
+          <a className={styles.card}>
+            <p>Pago por PSE AvalPay </p>
+          </a>
+        </NextLink>
         <NextLink href="/corresponsal" passHref>
           <a className={styles.card}>
             <p>Corresponsal Bancolombia </p>
