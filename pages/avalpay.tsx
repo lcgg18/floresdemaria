@@ -16,7 +16,6 @@ const Avalpay = () => {
           <hr />
           <a
             href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00024969&origen=buscar"
-            className={styles.card1}
           >
             <Image src="/PSE.png" alt="PAGO POR PSE" width="212" height="212" />
             <h2> Presiona Aquí </h2>
