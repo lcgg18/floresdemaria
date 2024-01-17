@@ -3,7 +3,7 @@ import PublicLayout from "../layout/PublicLayout";
 import NextLink from "next/link";
 import Image from "next/image";
 
-const Corresponsal = () => {
+const Avalpay = () => {
   return (
     <PublicLayout
       name="Pagos por PSE Avalpay"
@@ -38,4 +38,4 @@ const Corresponsal = () => {
   );
 };
 
-export default Corresponsal;
+export default Avalpay;
