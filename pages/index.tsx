@@ -16,6 +16,11 @@ const Home: NextPage = () => {
           <Image src="/App1.png" alt="ProntoPago" width="484" height="212" />
         </div>
       </div>
+      <div className="imagen">
+        <div className="img1">
+          <Image src="/ASA.png" alt="Asamblea" width="484" height="212" />
+        </div>
+      </div>
       {/* <div className="imagen"></div>
       <div className="img1">
       <a
@@ -35,7 +40,7 @@ const Home: NextPage = () => {
             <p>Pago por PSE AvalPay </p>
           </a>
         </NextLink>
-        <NextLink href="/corresponsal" passHref>
+        {/* <NextLink href="/corresponsal" passHref>
           <a className={styles.card}>
             <p>Corresponsal Bancolombia </p>
           </a>
@@ -44,7 +49,7 @@ const Home: NextPage = () => {
           <a className={styles.card}>
             <p>Pagos Bancario </p>
           </a>
-        </NextLink>
+        </NextLink> */}
       </div>
       <p className={styles.description}>Documentos</p>
       <div className={styles.grid}>
