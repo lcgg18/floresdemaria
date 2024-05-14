@@ -16,11 +16,11 @@ const Home: NextPage = () => {
           <Image src="/App1.png" alt="ProntoPago" width="484" height="212" />
         </div>
       </div> */}
-      <div className="imagen">
+      {/* <div className="imagen">
         <div className="img1">
           <Image src="/ASA1.png" alt="Asamblea" width="484" height="212" />
         </div>
-      </div>
+      </div> */}
       
       {/* <div className="imagen"></div>
       <div className="img1">
