@@ -12,17 +12,17 @@ const Home: NextPage = () => {
       description={"Pagina Principal"}
     >
       <div className="imagen">
-        <div className="img1">
+        {/* <div className="img1">
           <Image src="/App1.png" alt="ProntoPago" width="484" height="212" />
         </div>
-      </div>
+      </div> */}
       {/* <div className="imagen">
         <div className="img1">
           <Image src="/ASA1.png" alt="Asamblea" width="484" height="212" />
         </div>
       </div> */}
       
-      {/* <div className="imagen"></div>
+       {/* <div className="imagen"></div>
       <div className="img1">
       <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeOd4Cz_Z0AuDJ6cyfFLjzNvRNZtC2lAgEwn-onmf9cN8FerA/viewform?usp=sf_link"
@@ -31,8 +31,8 @@ const Home: NextPage = () => {
         >
         <Image src="/AD1.png" alt="Actualizacion de datos" width="420" height="175" />
         </a>
+      </div> */}
       </div>
-      </div>  */}
       <p className={styles.description}>Medios de Pagos</p>
       
       <div className={styles.grid}>
