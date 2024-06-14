@@ -14,7 +14,7 @@ interface Props {
   }
 
 
-const PublicLayout:FC<Props> = ({children, name, content, title='Bienvenido', description}) => {
+const PublicLayout:FC<Props> = ({children, name, content, title='', description}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,10 +24,10 @@ const PublicLayout:FC<Props> = ({children, name, content, title='Bienvenido', de
       </Head>
 
       <main className={styles.main}>
-      <NextLink href="/" passHref>
+      {/* <NextLink href="/" passHref>
         <Image src="/FL1.png" alt="Logo" width={400} height={200} />
       </NextLink> 
-      <br />  
+      <br />   */}
       {/* <div className="imagen">
       <div className="img1">
         <Image src="/Valparaiso.jpg" alt="imagen principal" width="420" height="280
